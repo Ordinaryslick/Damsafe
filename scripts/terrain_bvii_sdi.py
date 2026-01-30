@@ -40,7 +40,7 @@ from processing.algs.gdal.GdalAlgorithmProvider import GdalAlgorithmProvider
 # =========================
 # CONFIG (EDIT IF NEEDED)
 # =========================
-PROJECT_DIR = r"C:\Users\Mahidha T\damsafe"
+PROJECT_DIR = r"C:\damsafe"
 DEM_PATH = os.path.join(PROJECT_DIR, r"data\dem\processed\bhavanisagar_dem_utm.tif")
 
 OUT_DIR = os.path.join(PROJECT_DIR, "outputs", "rasters")
@@ -265,3 +265,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
