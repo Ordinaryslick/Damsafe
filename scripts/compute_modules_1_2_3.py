@@ -5,7 +5,7 @@ import pandas as pd
 # =========================
 # CONFIG
 # =========================
-PROJECT_DIR = r"C:\Users\Mahidha T\damsafe"
+PROJECT_DIR = r"C:\damsafe"
 CSV_PATH = os.path.join(PROJECT_DIR, "data", "Bhavani_Sagar_Controlled_Blasting_Dataset.csv")
 OUT_DIR = os.path.join(PROJECT_DIR, "outputs", "tables")
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -126,3 +126,4 @@ print("✅ Modules 1,2,3 computed successfully.")
 print("Saved:", OUT_CSV)
 print("\nQuick preview:")
 print(df[["PPV_mm_per_s", "Distance_from_Dam_m", "BVII", "BVII_Level", "SDI", "Dam_State", "RDI", "RDI_Level"]].head(10))
+
