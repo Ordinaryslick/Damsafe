@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # ---------------- CONFIG ----------------
-PROJDIR = Path(r"C:\Users\Mahidha T\damsafe")
+PROJDIR = Path(r"C:\damsafe")
 INPUT_CSV = PROJDIR / "outputs" / "tables" / "modules_1_2_3_outputs.csv"
 OUTPUT_CSV = PROJDIR / "outputs" / "tables" / "module4_dam_state.csv"
 
@@ -48,3 +48,4 @@ print("✅ Module 4 completed: Dam State computed")
 print("Saved:", OUTPUT_CSV)
 print("\nPreview:")
 print(df[["SDI", "Dam_State_M4", "Failure_Flag_M4"]].head(10))
+
