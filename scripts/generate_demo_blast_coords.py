@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from pyproj import Transformer
 
-PROJECT_DIR = r"C:\Users\Mahidha T\damsafe"
+PROJECT_DIR = r"C:\damsafe"
 IN_CSV = os.path.join(PROJECT_DIR, "data", "Bhavani_Sagar_Controlled_Blasting_Dataset.csv")
 OUT_CSV = os.path.join(PROJECT_DIR, "data", "Bhavani_Sagar_Controlled_Blasting_Dataset_DEMOcoords.csv")
 
@@ -35,3 +35,4 @@ df["Blast_Lat"] = lats
 df.to_csv(OUT_CSV, index=False)
 print("✅ Demo blast coordinates generated inside DEM extent.")
 print("Saved:", OUT_CSV)
+
