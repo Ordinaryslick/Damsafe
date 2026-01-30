@@ -5,7 +5,7 @@ from osgeo import gdal
 # Make GDAL raise Python exceptions (future-proof)
 gdal.UseExceptions()
 
-PROJECT_DIR = r"C:\Users\Mahidha T\damsafe"
+PROJECT_DIR = r"C:\damsafe"
 CSV_PATH = os.path.join(PROJECT_DIR, "data", "Bhavani_Sagar_Controlled_Blasting_Dataset_DEMOcoords.csv")
 SLOPE_TIF = os.path.join(PROJECT_DIR, "outputs", "rasters", "slope_deg.tif")
 OUT_CSV = os.path.join(PROJECT_DIR, "outputs", "tables", "module3_rdi_terrain.csv")
@@ -120,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
